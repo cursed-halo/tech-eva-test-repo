@@ -333,9 +333,16 @@
       .a {
         text-align: center;
         font-family: roboto;
-        font-size: 50px;
-        margin-top: 100px;
-        padding-bottom: 40px;
+        font-size: 350%;
+        padding: 2%;
+        margin: 2%;
+      }
+
+      .hp-subtext {
+        padding-top: 2%;
+        text-decoration: none;
+        font-size: 70%;
+        font-weight: 50;
       }
 
       .top {
@@ -445,174 +452,181 @@
           padding: 20px;
           padding-left: 200px;
         }
-        .a {
-          margin-top: 300px;
-        }
       }
     </style>
+    <link
+      rel="stylesheet"
+      href="/tech-eva-test-repo/styles/additional_styles.css"
+    />
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-light bg-light"
-      style="
-        background: linear-gradient(
-          45deg,
-          rgba(21, 82, 153, 1) 0%,
-          rgba(144, 192, 229, 0.4) 100%
-        );
-        color: #ffffff;
-      "
-    >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+    <div class="new-container">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light"
+        style="
+          background: linear-gradient(
+            45deg,
+            rgba(21, 82, 153, 1) 0%,
+            rgba(144, 192, 229, 0.4) 100%
+          );
+          color: #ffffff;
+        "
       >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html"
-              >Home <i class="fa fa-home" aria-hidden="true"></i>
-              <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html"
-              >About Us <i class="fa fa-file-text-o" aria-hidden="true"></i
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="blogs.html"
-              >Blogs <i class="fa fa-book" aria-hidden="true"></i
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="announcements .html"
-              >Events<i class="fa fa-star-o" aria-hidden="true"></i
-            ></a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">Techeva</form>
-      </div>
-    </nav>
-    <div class="container">
-      <div class="row">
-        <div class="view-small">
-          <h1 id="h">Techeva - Site for Tech-Blogs!</h1>
-          <br />
-          <h1>For the Students, By the Students, Of the Students</h1>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home <i class="fa fa-home" aria-hidden="true"></i>
+                <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"
+                >About Us <i class="fa fa-file-text-o" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blogs.html"
+                >Blogs <i class="fa fa-book" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="announcements .html"
+                >Events<i class="fa fa-star-o" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0 tech-eva-logo">Techeva</form>
         </div>
-        <div class="col-lg-6">
-          <div class="carousal">
-            <amp-carousel
-              type="slides"
-              width="600"
-              height="500"
-              controls
-              loop
-              autoplay
-              delay="2000"
-              data-next-button-aria-label="Go to next slide"
-              data-previous-button-aria-label="Go to previous slide"
-            >
-              <div class="carousel-image">
-                <img src="images/image01.jpg" alt="" />
-              </div>
-              <div class="carousel-image">
-                <img src="images/image02.jpg" alt="" />
-              </div>
-              <div class="carousel-image">
-                <img src="images/image03.jpg" alt="" />
-              </div>
-              <div class="carousel-image">
-                <img src="images/image04.jpg" alt="" />
-              </div>
-            </amp-carousel>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="small">
-            <center><h1>Techeva - Site for Tech-Blogs!</h1></center>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="view-small">
+            <h1 id="h">Techeva - Site for Tech-Blogs!</h1>
             <br />
-            <div class="typewriter">
-              <h1>For the Students, By the Students<br />Of the Students</h1>
+            <h1>For the Students, By the Students, Of the Students</h1>
+          </div>
+          <div class="col-lg-6">
+            <div class="carousal">
+              <amp-carousel
+                type="slides"
+                width="600"
+                height="500"
+                controls
+                loop
+                autoplay
+                delay="2000"
+                data-next-button-aria-label="Go to next slide"
+                data-previous-button-aria-label="Go to previous slide"
+              >
+                <div class="carousel-image">
+                  <img src="images/image01.jpg" alt="" />
+                </div>
+                <div class="carousel-image">
+                  <img src="images/image02.jpg" alt="" />
+                </div>
+                <div class="carousel-image">
+                  <img src="images/image03.jpg" alt="" />
+                </div>
+                <div class="carousel-image">
+                  <img src="images/image04.jpg" alt="" />
+                </div>
+              </amp-carousel>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="small">
+              <center><h1>Techeva - Site for Tech-Blogs!</h1></center>
+              <br />
+              <div class="typewriter">
+                <h1>For the Students, By the Students<br />Of the Students</h1>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      <br />
+      <div class="a">
+        <h1><strong>Blog Section</strong></h1>
+        <p class="hp-subtext">
+          Click on the card below to explore some of the articles submitted by
+          students of our department
+        </p>
+      </div>
+      <br />
+      <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+        rel="stylesheet"
+      />
+      <article></article>
 
-    <br />
-    <div class="a">
-      <h1><b>Blog Section</b></h1>
-    </div>
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
-      rel="stylesheet"
-    />
-
-    <section class="hero-section">
-      <div class="card-grid">
-        <a class="card" href="rickraj1.html" target="_blank">
-          <div
-            class="card__background"
-            style="
-              background-image: url(https://images.unsplash.com/photo-1509869175650-a1d97972541a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-            "
-          ></div>
-          <div class="card__content">
-            <h3 class="card__heading">The Theory of Relativity</h3>
-            <h5 class="card_author">-Rick Raj Das</h5>
-          </div>
-        </a>
-        <a class="card" href="prodipta1.html" target="_blank">
-          <div
-            class="card__background"
-            style="
-              background-image: url(https://images.unsplash.com/photo-1526649661456-89c7ed4d00b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-            "
-          ></div>
-          <div class="card__content">
-            <h3 class="card__heading">Beginner of Coding</h3>
-            <h5 class="card_author">-Prodipta Pal</h5>
-          </div>
-        </a>
-        <a class="card" href="poulomi1.html" target="_blank">
-          <div
-            class="card__background"
-            style="
-              background-image: url(https://images.unsplash.com/photo-1561347981-969c80cf4463?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-            "
-          ></div>
-          <div class="card__content">
-            <h3 class="card__heading">
-              A beginner’s guide to competitive programming
-            </h3>
-            <h5 class="card_author">-Poulami Das</h5>
-          </div>
-        </a>
-        <a class="card" href="suvechchha1.html" target="_blank">
-          <div
-            class="card__background"
-            style="
-              background-image: url(https://images.unsplash.com/photo-1573537805874-4cedc5d389ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-            "
-          ></div>
-          <div class="card__content">
-            <h3 class="card__heading">
-              An Era Of Turning Imagination Into Reality :The Sixth Sense
-              Technology
-            </h3>
-            <h5 class="card_author">-Suvechchha Pal</h5>
-          </div>
-        </a>
+      <section class="hero-section">
+        <div class="card-grid">
+          <a class="card" href="rickraj1.html" target="_blank">
+            <div
+              class="card__background"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1509869175650-a1d97972541a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+              "
+            ></div>
+            <div class="card__content">
+              <h3 class="card__heading">The Theory of Relativity</h3>
+              <h5 class="card_author">-Rick Raj Das</h5>
+            </div>
+          </a>
+          <a class="card" href="prodipta1.html" target="_blank">
+            <div
+              class="card__background"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1526649661456-89c7ed4d00b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+              "
+            ></div>
+            <div class="card__content">
+              <h3 class="card__heading">Beginner of Coding</h3>
+              <h5 class="card_author">-Prodipta Pal</h5>
+            </div>
+          </a>
+          <a class="card" href="poulomi1.html" target="_blank">
+            <div
+              class="card__background"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1561347981-969c80cf4463?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+              "
+            ></div>
+            <div class="card__content">
+              <h3 class="card__heading">
+                A beginner’s guide to competitive programming
+              </h3>
+              <h5 class="card_author">-Poulami Das</h5>
+            </div>
+          </a>
+          <a class="card" href="suvechchha1.html" target="_blank">
+            <div
+              class="card__background"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1573537805874-4cedc5d389ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+              "
+            ></div>
+            <div class="card__content">
+              <h3 class="card__heading">
+                An Era Of Turning Imagination Into Reality :The Sixth Sense
+                Technology
+              </h3>
+              <h5 class="card_author">-Suvechchha Pal</h5>
+            </div> </a
+          ><!--
         <a class="card" href="dibyadyuti1.html" target="_blank">
           <div
             class="card__background"
@@ -1046,101 +1060,113 @@
             <h3 class="card__heading">Introduction to Hyperconvergence</h3>
             <h5 class="card_author">-Prantap Nag</h5>
           </div>
-        </a>
+        </a>-->
+        </div>
+      </section>
+      <br />
+      <br />
+      <div class="a">
+        <h1>
+          <strong><a href="blogs.html">Read More!</a></strong>
+        </h1>
+        <p class="hp-subtext">
+          Click on the link above to explore a library of wonderful articles
+          submitted by students from all over the department.
+        </p>
       </div>
-    </section>
-    <br />
-    <br />
-    <footer>
-      <div class="footer">
-        <div class="footercontent">
-          <div class="footer-section contact">
-            <h2>Contact Us</h2>
+      <footer>
+        <div class="footer">
+          <div class="footercontent">
+            <div class="footer-section contact">
+              <h2>Contact Us</h2>
 
-            <div class="example-container">
-              <form>
-                <div class="form-group">
-                  <label for="exampleFormControlInput1">Email address</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="name@example.com"
-                  />
-                </div>
+              <div class="example-container">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="name@example.com"
+                    />
+                  </div>
 
-                <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Your Message</label>
-                  <textarea
-                    class="form-control"
-                    id="exampleFormControlTextarea1"
-                    rows="1"
-                  ></textarea>
-                </div>
-                <button type="button" class="btn btn-outline-light">
-                  send
-                </button>
-              </form>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1"
+                      >Your Message</label
+                    >
+                    <textarea
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="1"
+                    ></textarea>
+                  </div>
+                  <button type="button" class="btn btn-outline-light">
+                    send
+                  </button>
+                </form>
+              </div>
             </div>
-          </div>
 
-          <div class="footer-section links">
-            <div class="address">
-              <h2>Elektronica</h2>
+            <div class="footer-section links">
+              <div class="address">
+                <h2>Elektronica</h2>
+                <br />
+                A Tech Club, for the students ,by the students and of the
+                students .<br />An endeavour to help the students of our branch
+                to explore their tech-y sides
+                <br />
+                <br />
+              </div>
               <br />
-              A Tech Club, for the students ,by the students and of the students
-              .<br />An endeavour to help the students of our branch to explore
-              their tech-y sides
-              <br />
-              <br />
-            </div>
-            <br />
-            <div>
-              <div class="social">
-                <a class="btn-instagram" href="http://google.com/+"
-                  ><i class="fa fa-instagram fa-lg"></i
-                ></a>
-                <a
-                  class="btn-facebook"
-                  href="http://www.facebook.com/profile.php?id="
-                  ><i class="fa fa-facebook fa-lg"></i
-                ></a>
-                <a class="btn-linkedin" href="http://www.linkedin.com/in/"
-                  ><i class="fa fa-linkedin fa-lg"></i
-                ></a>
-                <a class="btn-twitter" href="http://twitter.com/"
-                  ><i class="fa fa-twitter fa-lg"></i
-                ></a>
-                <a class="btn-youtube" href="http://youtube.com/"
-                  ><i class="fa fa-youtube fa-lg"></i
-                ></a>
-                <a class="btn-mail" href="mailto:"
-                  ><i class="fa fa-envelope-o fa-lg"></i
-                ></a>
+              <div>
+                <div class="social">
+                  <a class="btn-instagram" href="http://google.com/+"
+                    ><i class="fa fa-instagram fa-lg"></i
+                  ></a>
+                  <a
+                    class="btn-facebook"
+                    href="http://www.facebook.com/profile.php?id="
+                    ><i class="fa fa-facebook fa-lg"></i
+                  ></a>
+                  <a class="btn-linkedin" href="http://www.linkedin.com/in/"
+                    ><i class="fa fa-linkedin fa-lg"></i
+                  ></a>
+                  <a class="btn-twitter" href="http://twitter.com/"
+                    ><i class="fa fa-twitter fa-lg"></i
+                  ></a>
+                  <a class="btn-youtube" href="http://youtube.com/"
+                    ><i class="fa fa-youtube fa-lg"></i
+                  ></a>
+                  <a class="btn-mail" href="mailto:"
+                    ><i class="fa fa-envelope-o fa-lg"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
+          <div class="footerbottom">
+            &copy; Techeva🔭|Designed by Webteam of ECE Tech Wing
+          </div>
         </div>
-        <div class="footerbottom">
-          &copy; Techeva🔭|Designed by Webteam of ECE Tech Wing
-        </div>
-      </div>
-    </footer>
+      </footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+      <script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"
+      ></script>
+    </div>
   </body>
 </html>
