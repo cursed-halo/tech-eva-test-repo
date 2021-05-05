@@ -1,13 +1,35 @@
 /*Global Rules Go Here*/
 *{
-    background-color: #12232E;
+    
 }
 
+/*For Showcase Section In index.html*/
+
+.n-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#showcase-section {
+    min-height: 400px;
+    background: url(https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80)  0 -270px;
+    text-align: center;
+    color:#ffffff;
+}
+
+#showcase-section h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+
+
 .new-container {
-    background-image: url(https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
-    color: aliceblue;
 }
 
 .tech-eva-logo {
     font-size: 300%;
 }
+
